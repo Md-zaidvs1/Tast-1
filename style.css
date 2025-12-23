@@ -43,9 +43,13 @@ body {
   font-weight: 500;
 }
 
-.auth {
-  display: flex;
-  gap: 16px;
+.sign-btn {
+    position: sticky;
+    padding: 10px 30px;
+    color: orange;
+    border: none;
+    background-color: #fff;
+}
 }
 
 .btn {
@@ -54,11 +58,7 @@ body {
   border: none;
   cursor: pointer;
   font-weight: 600;
-}
-
-.btn-outline {
-  background: transparent;
-  color: var(--primary);
+  
 }
 
 .btn-primary {
@@ -79,6 +79,7 @@ body {
   font-size: 56px;
   line-height: 1.2;
   margin-bottom: 20px;
+  
 }
 
 .hero h1 span {
